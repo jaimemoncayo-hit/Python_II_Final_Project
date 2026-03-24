@@ -1,6 +1,6 @@
-#Pokemon Combat Simulator
+Pokemon Combat Simulator
 ___________________________________________________________________________________
-##Project Overview
+Project Overview
 
 This project is an interactive Pokémon battle simulator built with Streamlit, using real-time data from the PokeAPI.
 
@@ -9,7 +9,7 @@ Users can select two Pokémon, compare their base stats, choose one move for eac
 The goal of the project is to combine API usage, data processing, and visualization into a simple and functional application.
 ___________________________________________________________________________________
 
-##Features
+Features
 Pokémon selection from a predefined list
 Display of basic Pokémon information (types, height, weight)
 Comparison of base stats using tables and charts
@@ -28,7 +28,7 @@ PokeAPI
 API Usage
 ___________________________________________________________________________________
 
-##The application uses the following endpoints from the PokeAPI:
+The application uses the following endpoints from the PokeAPI:
 
 /pokemon/ to retrieve Pokémon data (stats, types, moves)
 /move/ to obtain move details (power, accuracy, damage class)
@@ -37,7 +37,7 @@ ________________________________________________________________________________
 To improve performance and avoid unnecessary requests, API calls are cached using @st.cache_data.
 ___________________________________________________________________________________
 
-##How to Run the App
+How to Run the App
 Clone the repository:
 
 git clone https://github.com/jaimemoncayo-hit/Python_II_Final_Project.git
@@ -51,12 +51,12 @@ Run the application:
 streamlit run app.py
 ___________________________________________________________________________________
 
-##Live App
+Live App
 
 https://pokemon-combat-simulator-g1.streamlit.app/
 ___________________________________________________________________________________
 
-##Project Structure
+Project Structure
 
 app.py
 requirements.txt
@@ -64,7 +64,7 @@ README.md
 config.toml
 ___________________________________________________________________________________
 
-##Team Contributions
+Team Contributions
 
 This project was developed collaboratively by:
 
@@ -86,11 +86,11 @@ Integrated all components, handled debugging, and finalized the application.
 All team members contributed to testing, improvements, and final adjustments.
 ___________________________________________________________________________________
 
-##Example Use Case
+Example Use Case
 
 A user selects two Pokémon, compares their stats, chooses a move for each, and simulates a battle. The system calculates damage dynamically and displays the results through a battle log and a visual representation of HP changes over time.
 ___________________________________________________________________________________
 
-##Conclusion
+Conclusion
 
 This project demonstrates how to combine real-time data from APIs, data analysis with pandas, and interactive visualization into a complete application.
